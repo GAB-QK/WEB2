@@ -19,7 +19,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-item nav-link mx-2 mt-2 ml-2" href="./index.php">Home </a>
+            <a class="nav-item nav-link mx-2 mt-2 ml-2" href="./index.php">Acceuil </a>
             <a class="nav-item nav-link mx-2 mt-2 ml-2" href="./readAll.php">Actualités</a>
             <a class="nav-item nav-link active mx-2 mt-2 ml-2" href="./createPublication.php">Crée une publication</a>
             <?php if ($_SESSION && $_SESSION["username"]) : ?>

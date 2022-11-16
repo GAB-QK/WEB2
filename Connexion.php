@@ -55,7 +55,7 @@ if ($_POST) {
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav mx-2 mt-2 ml-2">
-      <a class="nav-item nav-link active" href="./index.php">Home </a>
+      <a class="nav-item nav-link active" href="./index.php">Acceuil </a>
     </div>
   </div>
 
@@ -105,7 +105,7 @@ if ($_POST) {
                     </div>
                     <div class="pt-1 mb-4">
                       <a href="./CreatAccount.php">
-                        <button class="btn btn-primary btn-lg btn-block" type="button">Creat account</button>
+                        <button class="btn btn-primary btn-lg btn-block" type="button">crée ton compte</button>
                       </a>
                     </div>
                   </form>

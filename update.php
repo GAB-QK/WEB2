@@ -61,8 +61,9 @@ if ($_SESSION && $_SESSION["username"]) :
                 "content" => $_POST["content"],
                 "author" => $_POST["author"],
                 "title" => $_POST["title"],
-                "lien_image" => $_POST["lien_image"]
+                "id_user" => $_SESSION["id"]
             ];
+
 
             $manager->update(new Article($donnees));
             echo "<script> window.location.href='readAll.php'</script>";
